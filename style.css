@@ -1,0 +1,73 @@
+
+h1{
+    color: aliceblue;
+}
+video {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    z-index: -1;
+    padding-top: 200px;
+}
+.content {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    text-align: center;
+}
+
+ img{
+        width: 200px;
+        hight: 200px;
+        border-radius: 50%;
+    }
+      .hero { object-fit: cover;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-image: url(a.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        font-size: 20px;
+        color: aliceblue;
+    }
+   .al{
+    position: absolute;
+    background-color: black;   
+    color: antiquewhite; 
+    top: 50%;
+    left: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    height: 60%;
+    padding: 5px;
+       animation: moveLeft 3s ease-out forwards;
+}
+@keyframes moveLeft {
+    from {
+        transform:translateX(100% );
+    }
+
+    to {
+        transform: translateX(0 ) ;
+    }
+}
+  .al1{
+background-color:rgb(50, 45, 45);
+   }
+   .al2{
+    background-color:rgb(47, 43, 43);
+   }
+   .al3{
+    background-color: rgb(56, 52, 52);
+   }
+   .al4{
+    background-color:rgb(38, 34, 34);
+   }
